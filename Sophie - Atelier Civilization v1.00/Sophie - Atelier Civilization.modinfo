@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4725b832-d5eb-4820-a7ab-2fae421dfcbf" version="1">
+  <Properties>
+    <Name>[COLOR:Civ6DarkRed]Sophie[ENDCOLOR] - Atelier Civilization</Name>
+    <Description>Adds [COLOR:Civ6DarkRed]Sophie[ENDCOLOR] as an alternative leader of the Atelier civilizaiton.[NEWLINE][NEWLINE][COLOR:Civ6DarkRed]Mysterious Book[ENDCOLOR][NEWLINE]+2 [ICON_Movement] Movement and +7 [ICON_Strength] Combat Strength to all units for the next 2 turns after creating a [ICON_Greatwork_Writing] Great Work of Writing (duration stacks), and [ICON_Greatwork_Writing] Great Works of Writing yield +2 [ICON_Science] Science. A unit taking the [ICON_SOPHIE_SKIPTURN_FONTICON] Skip Turn action while on the Atelier improvement will return to the [ICON_Capital] Capital with its [ICON_Movement] Movement restored.[NEWLINE][NEWLINE][COLOR:Civ6DarkRed]Messy Protector[ENDCOLOR][NEWLINE]GS: Sophie will pillage when able, and likes those whose messes exceed her own. Sophie makes for an easy friend, and will emphasize protectorate and liberation wars.[NEWLINE][NEWLINE]Base Game, R&amp;F: Sophie makes for an easy friend, and likes civilizations who are her Declared Friends. Dislikes anyone denouncing or attacking her friends. Sophie will pillage when able, and will emphasize protectorate and liberation wars.</Description>
+    <Created>1614022801</Created>
+    <Teaser>Adds Sophie as an alternative leader of the Atelier civilizaiton.</Teaser>
+    <Authors>SailorCat</Authors>
+    <SpecialThanks>Gedemon, Pixie, SeelingCat</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="XP1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP1 or XP2" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/Sailor_Sophie_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icons">
+      <File>Icons/Sailor_Sophie_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>Sophie - Atelier Civilization.dep</File>
+    </UpdateArt>
+    <UpdateText id="reamde">
+      <File>Core/Sailor_Sophie_Reamde.xml</File>
+    </UpdateText>
+    <UpdateColors id="colors">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/Sailor_Sophie_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <AddGameplayScripts id="lua">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/Scripts/Sailor_Sophie_InGame.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="db">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/Sailor_Sophie_Defines.sql</File>
+      <File>Core/Sailor_Sophie_Agenda.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="reamde">
+      <File>Core/Sailor_Sophie_Reamde.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icons">
+      <File>Icons/Sailor_Sophie_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>Sophie - Atelier Civilization.dep</File>
+    </UpdateArt>
+    <UpdateColors id="colors">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/Sailor_Sophie_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="reamde_XP2">
+      <Properties>
+        <LoadOrder>1780</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>Core/Sailor_Sophie_XP2_Txt.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="db_XP2">
+      <Properties>
+        <LoadOrder>1780</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>Core/Sailor_Sophie_XP2.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Core/Sailor_Sophie_Agenda.sql</File>
+    <File>Core/Sailor_Sophie_Colors.sql</File>
+    <File>Core/Sailor_Sophie_Config.sql</File>
+    <File>Core/Sailor_Sophie_Defines.sql</File>
+    <File>Core/Sailor_Sophie_Reamde.xml</File>
+    <File>Core/Sailor_Sophie_XP2.sql</File>
+    <File>Core/Sailor_Sophie_XP2_Txt.sql</File>
+    <File>Core/Scripts/Sailor_Sophie_InGame.lua</File>
+    <File>Icons/Sailor_Sophie_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Sophie - Atelier Civilization.dep</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_SAILOR_SOPHIE_NAME">
+			<Text>Sophie Neuenmuller</Text> <!--Used on loading screen, pedia list, and civ pedia.-->
+		</Row>
+
+		<!--UA-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_SOPHIE_UA_NAME">
+			<Text>Mysterious Book</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_SOPHIE_UA_DESCRIPTION">
+			<Text>+2 [ICON_Movement] Movement and +7 [ICON_Strength] Combat Strength to all units for the next 2 turns after creating a [ICON_Greatwork_Writing] Great Work of Writing (duration stacks), and [ICON_Greatwork_Writing] Great Works of Writing yield +2 [ICON_Science] Science. A unit taking the [ICON_SOPHIE_SKIPTURN_FONTICON] Skip Turn action while on the Atelier improvement will return to the [ICON_Capital] Capital with its [ICON_Movement] Movement restored.</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_SOPHIE">
+			<Text>
+				Prime your cauldron, Sophie Neuenmuller. With the help of a very special reference book, you have in you such talent for alchemy that even the fabric of reality is yours to bend. But first, you must experiment. And for every experiment there's a mess. Where there's a mess, a scolding. Stay true to your goal of becoming an alchemist upon which others can rely, and in time, you will have the world at your feet. Eventually, even the gods themselves will pale before you!
+			</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_SOPHIE_TITLE">
+			<Text>Sophie Neuenmuller</Text> <!--Used on leader pedia page.-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_SOPHIE_SUBTITLE">
+			<Text>Sophie Neuenmuller</Text>	<!--Used where?-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_SOPHIE_QUOTE">
+			<Text>
+				Aaah, if only there was a way to suddenly get really good at alchemy.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_SOPHIE_CHAPTER_HISTORY_PARA_1">
+			<Text>
+				Sophie began her journey as an alchemist under the tutelage of her grandmother. When her grandmother passed, Sophie was left with her atelier and only a rudimentary knowledge of the craft. At the outset of Atelier Sophie: The Alchemist of the Mysterious Book, Sophie accepts a simple synthesis request, which she records in a book that belonged to her late grandmother. This would soon wake the quiescent soul inhabiting the book.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_SOPHIE_CHAPTER_HISTORY_PARA_2">
+			<Text>
+				The book, who goes by the name Plachta, possesses a keen understanding of alchemy, and takes Sophie under wing as apprentice. Throughout her game, Sophie is tasked with filling Plachta's pages with alchemical notes and recipes in order to restore its memory. Together, they work toward Sophie's dream of becoming an alchemist upon which others can rely.
+			</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>I'm Sophie Neuenmuller. Just an alchemist, nothing more. Definitely not a slacker.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>How about we rest our feet in the city across the way? I could whip us up a pot of delicious soil potato stew.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Oh, what's it like?</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Most visitors to Kirchen Bell come to see the church, but I know a café with the best sotea and waffles. In the evening, there's a super-talented singer-pianist.</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Ehehehe... Hi.</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>They'll be welcomed on Pilgrim Road with open arms and sweets trays.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>I, um... accepted too many requests. Again. Sorry.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>I sent a tuned cauldron brimful with harmonium ingots and breezy aromas. All on a living cart.</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>"Puni-Level National Security" says I shouldn't allow just anyone in my borders. But I trust you, so feel free to make yourself at home.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>"Puni-Level National Security" says I shouldn't allow just anyone in my borders.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>"Puni-Level Diplomacy" says I should ask before crossing the borders of foreign civilizations.</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>You can rely on me. I'll do my best!</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>When grandma said "the more the merrier" she never accounted for people like you.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>It's said that a good friend is like a good book. But sometimes, a good friend is a good book. Which are you?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Ehehehe... Leave it to me.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>You dashed my hopes just like that...</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Would you like to form a party? Alchemy can accomplish extraordinary things.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Shouldn't your soldiers idle somewhere that isn't teeming with monsters? They're practically at the threshold of the Library of All Creation.</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Thanks!</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>This doesn't align with the materials' desires.</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>H-huh...? Did I do something wrong?</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Compared to you, even the Demon Lord would make for a better friend. (Denounces You.)</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Uwah! What'd I do to deserve this? Good thing I synthesized all those spirit weave cloths...</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>I'm here to chew alchemy drops and toss ori bombs, and I'm all out of alchemy drops.</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>I'm on my last ori bomb anyway. Let's sit for sotea and waffles.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>I won't let up just yet. There's still a super-cursed uni bag with your name on it.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>I need a break. Let's sit for sotea and waffles.</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>It is possible to commit no mistakes and still lose. I gave my all for those who relied upon me. There's no mistake in that.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>You shouldn't have threatened my friends. You could have been one.</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_SOPHIE_NAME">
+			<Text>Messy Protector</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_SOPHIE_DESCRIPTION">
+			<Text>Sophie makes for an easy friend, and likes civilizations who are her Declared Friends. Dislikes anyone denouncing or attacking her friends. She will pillage when able, and will emphasize protectorate and liberation wars.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDA_LEADER_SAILOR_SOPHIE_REASON_HIGH">
+			<Text>(You are a declared friend.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_SOPHIE_HIGH">
+			<Text>Sophie approves of your friendship.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDA_LEADER_SAILOR_SOPHIE_REASON_LOW">
+			<Text>(You have denounced or attacked a friend.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_SOPHIE_LOW">
+			<Text>Sophie disapproves of your treatment of her friends.</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>What is best in life? To protect your friends, see them rely upon you, and to hear the vim of their laughter. It's a relief you agree.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_SOPHIE_ANY">
+			<Text>Continue to scorn the tenets of friendship, and you will leave me no choice but to clobber you.</Text>
+		</Row>
+
+		<!--LEADER AGENDA XP2-->
+		<Row Tag="LOC_AGENDA_SAILOR_SOPHIE_XP2_NAME">
+			<Text>Messy Protector</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_SOPHIE_XP2_DESCRIPTION">
+			<Text>Sophie will pillage when able, and likes those whose messes exceed her own. She makes for an easy friend, and will emphasize protectorate and liberation wars.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_SOPHIE_XP2_REASON_HIGH">
+			<Text>(You have pillaged enough tiles.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_SOPHIE_XP2_HIGH">
+			<Text>Sophie approves of your messiness.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_SOPHIE_XP2_REASON_LOW">
+			<Text>(You have pillaged too few tiles.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_SOPHIE_XP2_LOW">
+			<Text>Sophie disapproves of your tidyness.</Text>
+		</Row>
+
+		<!--LEADER TRAIT MODIFIER-->
+		<Row Tag="LOC_SAILOR_SOPHIE_UNIT_STRENGTH_PREVIEW_TEXT">
+			<Text>+7 from Mysterious Book</Text>
+		</Row>
+
+	</BaseGameText>
+</GameData>
